@@ -1,0 +1,32 @@
+.system-monitor {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 255, 136, 0.3) transparent;
+}
+
+.system-monitor::-webkit-scrollbar {
+  width: 4px;
+}
+
+.system-monitor::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.system-monitor::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 136, 0.3);
+  border-radius: 2px;
+}
+
+.system-monitor::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 136, 0.5);
+}
+
+.metric {
+  padding: 6px;
+  border-left: 2px solid currentColor;
+  padding-left: 8px;
+  opacity: 0.95;
+}
+
+.metric div {
+  line-height: 1.3;
+}
